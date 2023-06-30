@@ -37,9 +37,9 @@ btnLogin.addEventListener("click", function (e) {
 });
 
 btnLogo.addEventListener("click", () => {
-  window.location.href = "../../w3_Band/index.html";
+  window.location.href = "../../Web_Bank/index.html";
 });
 
 btnRegister.addEventListener("click", () => {
-  window.location.href = "../../w3_Band/index.html";
+  window.location.href = "../../Web_Bank/index.html";
 });
