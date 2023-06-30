@@ -13,8 +13,7 @@ btnLogin.addEventListener("click", function (e) {
     if (userCurrent) {
       alert("Đăng nhập thành công !");
       saveToStorage("userAction", userCurrent);
-      window.location.href =
-        "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/home.html";
+      window.location.pathname = "/page/login.html";
     }
   }
   function validateDate() {
@@ -38,11 +37,9 @@ btnLogin.addEventListener("click", function (e) {
 });
 
 btnLogo.addEventListener("click", () => {
-  window.location.href =
-    "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/index.html";
+  window.location.pathname = "/index.html";
 });
 
 btnRegister.addEventListener("click", () => {
-  window.location.href =
-    "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/index.html";
+  window.location.pathname = "/index.html";
 });

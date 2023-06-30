@@ -267,9 +267,3 @@ const slider = function () {
   });
 };
 slider();
-
-// btn click login on nav
-document.getElementById("login").addEventListener("click", () => {
-  window.location.href =
-    "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/login.html";
-});
