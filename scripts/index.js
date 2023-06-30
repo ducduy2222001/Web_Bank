@@ -270,5 +270,5 @@ slider();
 
 // btn click login on nav
 document.getElementById("login").addEventListener("click", () => {
-  window.location.href = "../page/login.html";
+  window.location.href = "../../Web_Bank/page/login.html";
 });
