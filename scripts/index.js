@@ -267,3 +267,8 @@ const slider = function () {
   });
 };
 slider();
+
+// btn click login on nav
+document.getElementById("login").addEventListener("click", () => {
+  window.location.href = "../page/login.html";
+});

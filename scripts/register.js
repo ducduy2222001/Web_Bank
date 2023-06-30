@@ -27,7 +27,7 @@ registerBtn.addEventListener("click", e => {
     createUsernames(userArr);
     saveToStorage(KEY, userArr);
     alert("Đăng kí thành công!");
-    window.location.pathname = "page/login.html";
+    window.location.href = "/page/login.html";
   }
 });
 
