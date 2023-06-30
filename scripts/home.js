@@ -145,7 +145,8 @@ if (currentUser) {
       //if time = 0 return opacity =0 and change labelwelcome
       if (time === 0) {
         clearInterval();
-        window.location.href = "../page/login.html";
+        window.location.href =
+          "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/login.html";
         alert("Bạn đã hết thời gian đăng nhập vui lòng đăng nhập lại !");
       }
       time--;
@@ -329,7 +330,8 @@ if (currentUser) {
         localStorage.removeItem("userAction");
 
         // Hide UI
-        window.location.href = "../page/login.html";
+        window.location.href =
+          "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/login.html";
       }
     }
   });
@@ -343,5 +345,6 @@ if (currentUser) {
   });
 } else {
   alert("Bạn cần đăng nhập hoặc đăng kí tài khoản");
-  window.location.href = "../page/login.html";
+  window.location.href =
+    "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/login.html";
 }

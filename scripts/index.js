@@ -52,33 +52,11 @@ btnScrollTo.addEventListener("click", function (e) {
     document.documentElement.clientWidth
   );
 
-  // Scrolling
-  // window.scrollTo(
-  //   s1coords.left + window.pageXOffset,
-  //   s1coords.top + window.pageYOffset
-  // );
-
-  // window.scrollTo({
-  //   left: s1coords.left + window.pageXOffset,
-  //   top: s1coords.top + window.pageYOffset,
-  //   behavior: 'smooth',
-  // });
-
   section1.scrollIntoView({ behavior: "smooth" });
 });
 
 ///////////////////////////////////////
 // Page navigation
-
-// document.querySelectorAll('.nav__link').forEach(function (el) {
-//   el.addEventListener('click', function (e) {
-//     e.preventDefault();
-//     const id = this.getAttribute('href');
-//     console.log(id);
-//     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-//   });
-// });
-
 // 1. Add event listener to common parent element
 // 2. Determine what element originated the event
 
@@ -292,5 +270,6 @@ slider();
 
 // btn click login on nav
 document.getElementById("login").addEventListener("click", () => {
-  window.location.href = "../page/login.html";
+  window.location.href =
+    "file:///F:/CODE/MY-PROJECT/Project%20HTML,CSS,JS/Web_Bank/page/login.html";
 });
