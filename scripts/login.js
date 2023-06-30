@@ -28,7 +28,7 @@ btnLogin.addEventListener("click", function (e) {
       inputUser.value !== userCurrent.username ||
       inputPass.value !== userCurrent.password
     ) {
-      alert("Tài khoản hoặc mật khẩu không đúng vui lòng kiểm tra lại");
+      alert("Tài khoản hoặc mật khẩu không đúng vui lòng kiểm tra lại !");
       return false;
     }
 
